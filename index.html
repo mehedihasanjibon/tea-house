@@ -9,13 +9,51 @@
     <script src="https://kit.fontawesome.com/e392829b18.js" crossorigin="anonymous"></script>
     <!-- tailwind link  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                title_text_color: '#1C1C1C',
+                sub_text_color: '#777777',
+              }
+            }
+          }
+        }
+      </script>
 
 </head>
 <body>
     
-    <header>
-
-    </header>
+    <!-- banner section  -->
+    <section class="container mx-auto px-16 lg:px-36 lg:flex pt-10 mb-28">
+        <!-- banner title  -->
+        <div class="flex items-center">
+            <div>
+                <h1 class="font-semibold text-5xl md:text-7xl title_text_color"> 
+                    It's good 
+                    tea time at The 
+                    Tea House
+                </h1>
+                <p class="sub_text_color w-3/4">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <button class="font-semibold bg-gradient-to-r from-orange-400 to-red-600 px-5 py-2 text-white mb-5 rounded-lg "> Explore More </button>
+            </div>
+            <!-- banner img  -->
+            <div>
+                <div>
+                    <img src="images/banner.png" alt="">
+                </div>
+                <div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <main>
 
